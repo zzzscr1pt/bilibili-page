@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270">
+  <defs><linearGradient id="g0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d2a57"/><stop offset="1" stop-color="#ff7fa9"/></linearGradient></defs>
+  <rect width="480" height="270" fill="url(#g0)"/>
+  <circle cx="380" cy="52" r="28" fill="#fff" opacity=".55"/>
+  <path d="M0 190 L120 90 L210 175 L310 65 L480 190 V270 H0Z" fill="#fff" opacity=".28"/>
+  <path d="M0 220 H480 V270 H0Z" fill="#182047" opacity=".35"/>
+  <g fill="#fff" opacity=".46"><circle cx="45" cy="48" r="3"/><circle cx="70" cy="82" r="2"/><circle cx="425" cy="108" r="3"/></g>
+  <text x="28" y="238" fill="#fff" font-family="Microsoft YaHei, sans-serif" font-size="26" font-weight="700">城市末班车</text>
+</svg>

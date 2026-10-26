@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270">
+  <defs><linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172853"/><stop offset="1" stop-color="#7e69b8"/></linearGradient></defs>
+  <rect width="480" height="270" fill="url(#g5)"/>
+  <circle cx="190" cy="77" r="43" fill="#fff" opacity=".55"/>
+  <path d="M0 210 L150 70 L250 180 L335 95 L480 220 V270 H0Z" fill="#fff" opacity=".28"/>
+  <path d="M130 205 L240 120 L350 205Z" fill="#182047" opacity=".35"/>
+  <g fill="#fff" opacity=".46"><circle cx="45" cy="48" r="3"/><circle cx="70" cy="82" r="2"/><circle cx="425" cy="108" r="3"/></g>
+  <text x="28" y="238" fill="#fff" font-family="Microsoft YaHei, sans-serif" font-size="26" font-weight="700">星空露营</text>
+</svg>

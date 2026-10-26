@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270">
+  <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#48b8d8"/><stop offset="1" stop-color="#8bd8ef"/></linearGradient></defs>
+  <rect width="480" height="270" fill="url(#g1)"/>
+  <circle cx="342" cy="57" r="31" fill="#fff" opacity=".55"/>
+  <path d="M0 190 Q110 120 230 180 T480 165 V270 H0Z" fill="#fff" opacity=".28"/>
+  <path d="M0 205 Q120 160 260 215 T480 195 V270 H0Z" fill="#182047" opacity=".35"/>
+  <g fill="#fff" opacity=".46"><circle cx="45" cy="48" r="3"/><circle cx="70" cy="82" r="2"/><circle cx="425" cy="108" r="3"/></g>
+  <text x="28" y="238" fill="#fff" font-family="Microsoft YaHei, sans-serif" font-size="26" font-weight="700">海岸慢行</text>
+</svg>

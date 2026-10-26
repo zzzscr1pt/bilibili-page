@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="24001011125-郭金瑞">
+  <meta name="description" content="高级网页设计I——网页元素设计实验">
+  <title>Gjr 网页元素设计四级项目f</title>
+  <link rel="icon" href="assets/hero-bg.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 学号：24001011125  姓名：郭金瑞 -->
+  <header class="site-header">
+    <div class="hero-picture" aria-hidden="true"></div>
+    <nav class="top-nav" aria-label="顶部导航">
+      <ul class="nav-left">
+        <li><a class="home-link" href="#"><span class="tv-icon">⌾</span>首页</a></li>
+        <li><a href="#">番剧</a></li><li><a href="#">直播</a></li><li><a href="#">游戏中心</a></li>
+        <li><a href="#">会员购</a></li><li><a href="#">漫画</a></li><li><a href="#">赛事</a></li>
+        <li><a href="#">舞乐会</a></li><li><a class="event-link" href="#">追赛S16</a></li>
+        <li><a href="#">⇩ 下载客户端</a></li>
+      </ul>
+      <form class="search-box" role="search">
+        <label class="sr-only" for="site-search">搜索内容</label>
+        <input id="site-search" type="search" placeholder="TF 家族">
+        <button type="button" aria-label="搜索">⌕</button>
+      </form>
+      <ul class="nav-right">
+        <li><a class="login-button" href="#">登录</a></li>
+        <li><a href="#"><span>◉</span>大会员</a></li><li><a href="#"><span>▣</span>消息</a></li>
+        <li><a href="#"><span>♧</span>动态</a></li><li><a href="#"><span>☆</span>收藏</a></li>
+        <li><a href="#"><span>◷</span>历史</a></li><li><a href="#"><span>♙</span>创作中心</a></li>
+        <li><a class="upload-button" href="#">⇧ 投稿</a></li>
+      </ul>
+    </nav>
+    <a class="hero-logo" href="#" aria-label="哔哩哔哩首页">bilibili</a>
+  </header>
+   //学号24001011125  姓名：郭金瑞
+  <main class="page-wrap">
+    <section class="channel-panel" aria-label="内容分类导航">
+      <div class="channel-specials">
+        <a href="#"><span class="special-icon special-icon--orange">✤</span><strong>动态</strong></a>
+        <a href="#"><span class="special-icon special-icon--red">♨</span><strong>热门</strong></a>
+      </div>
+      <nav class="channel-tags" aria-label="内容分区">
+        <a href="#">番剧</a><a href="#">国创</a><a href="#">综艺</a><a href="#">动画</a><a href="#">鬼畜</a>
+        <a href="#">舞蹈</a><a href="#">娱乐</a><a href="#">科技数码</a><a href="#">美食</a><a href="#">汽车</a><a href="#">体育运动</a>
+        <a href="#">电影</a><a href="#">电视剧</a><a href="#">纪录片</a><a href="#">游戏</a><a href="#">音乐</a>
+        <a href="#">影视</a><a href="#">知识</a><a href="#">资讯</a><a href="#">小剧场</a><a href="#">时尚美妆</a><a href="#">更多⌄</a>
+      </nav>
+      <nav class="channel-tools" aria-label="快捷入口">
+        <a href="#">▤ 专栏</a><a href="#">⚑ 活动</a><a href="#">▣ 社区中心</a>
+        <a href="#">▶ 直播</a><a href="#">✦ 课堂</a><a href="#">♪ 新歌热榜</a>
+      </nav>
+    </section>
+    //24001011125 姓名：郭金瑞
+    <section class="recommend-grid" aria-label="推荐视频">
+      <article class="feature-card">
+        <img src="assets/02-feature-tesla.jpg" alt="特斯拉主题视频封面">
+        <div class="feature-shade"></div>
+        <div class="feature-copy">
+          <h2>【车的发布会】马斯克：特斯拉！能！飞！</h2>
+          <div class="feature-bottom">
+            <span class="carousel-dots" aria-label="轮播图静态指示点"><i></i><i></i><i class="active"></i><i></i><i></i><i></i><i></i></span>
+            <span class="carousel-arrows"><b>‹</b><b>›</b></span>
+          </div>
+        </div>
+      </article>
+
+      <div class="video-grid">
+        <article class="video-card">
+          <a class="card-cover" href="#"><img src="assets/03-supermarket-challenge.jpg" alt="超市挑战视频封面"><span class="media-info"><span class="media-left"><b class="play-icon">▶</b>928.4万 <b class="danmu-icon">☷</b>2.4万</span><span>57:46</span></span></a>
+          <h3><a href="#">超市生存挑战后续！4人吃完整个超市赢100万美金！</a></h3>
+          <p class="creator"><span class="up-badge">UP</span> 野兽先生MrBeast　·　10月8日</p>
+        </article>
+        <article class="video-card">
+          <a class="card-cover" href="#"><img src="assets/04-dance.jpg" alt="舞蹈视频封面"><span class="media-info"><span class="media-left"><b class="play-icon">▶</b>1015.8万 <b class="danmu-icon">☷</b>1939</span><span>01:15</span></span></a>
+          <h3><a href="#">⚡ 疯 狂 闪 身 步 ⚡</a></h3>
+          <p class="creator"><span class="up-badge">UP</span> 仔仔gagako　·　10月4日</p>
+        </article>
+        <article class="video-card">
+          <a class="card-cover" href="#"><img src="assets/05-iphone-duo.jpg" alt="手机评测视频封面"><span class="media-info"><span class="media-left"><b class="play-icon">▶</b>657.8万 <b class="danmu-icon">☷</b>8万</span><span>24:52</span></span></a>
+          <h3><a href="#">折1万次，会坏吗？iPhone Duo深度评测</a></h3>
+          <p class="creator"><span class="up-badge">UP</span> 影视飓风　·　10月21日</p>
+        </article>
+        <article class="video-card">
+          <a class="card-cover" href="#"><img src="assets/06-ai-workflow.jpg" alt="AI工作流视频封面"><span class="media-info"><span class="media-left"><b class="play-icon">▶</b>42.7万 <b class="danmu-icon">☷</b>308</span><span>08:08</span></span></a>
+          <h3><a href="#">小白也能学会的AI工作流，用好AI是普通人最大的杠杆</a></h3>
+          <p class="creator"><span class="up-badge">UP</span> 姜Dora在此　·　7月22日</p>
+        </article>
+        <article class="video-card">
+          <a class="card-cover" href="#"><img src="assets/07-zhang-zuolin.jpg" alt="人物故事视频封面"><span class="media-info"><span class="media-left"><b class="play-icon">▶</b>341.4万 <b class="danmu-icon">☷</b>721</span><span>02:23</span></span></a>
+          <h3><a href="#">抽象历史人物志——张作霖</a></h3>
+          <p class="creator"><span class="up-badge">UP</span> 抽象历史人物志　·　10月20日</p>
+        </article>
+        <article class="video-card">
+          <a class="card-cover" href="#"><img src="assets/08-variety-show.jpg" alt="综艺视频封面"><span class="media-info"><span class="media-left"><b class="play-icon">▶</b>771.2万 <b class="danmu-icon">☷</b>2048</span><span>01:51</span></span></a>
+          <h3><a href="#">“这波秒开仙人，直接把六小龄童看呆了！”</a></h3>
+          <p class="creator"><span class="up-badge">UP</span> 荒草音乐　·　10月11日</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <button class="switch-button" type="button" aria-label="换一换">↻<span>换<br>一<br>换</span></button>
+</body>
+</html>

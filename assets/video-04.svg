@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270">
+  <defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#de7a55"/><stop offset="1" stop-color="#ffd98c"/></linearGradient></defs>
+  <rect width="480" height="270" fill="url(#g3)"/>
+  <circle cx="266" cy="67" r="37" fill="#fff" opacity=".55"/>
+  <path d="M80 185 Q240 60 400 185 L365 225 H115Z" fill="#fff" opacity=".28"/>
+  <path d="M120 205 H360 V242 H120Z" fill="#182047" opacity=".35"/>
+  <g fill="#fff" opacity=".46"><circle cx="45" cy="48" r="3"/><circle cx="70" cy="82" r="2"/><circle cx="425" cy="108" r="3"/></g>
+  <text x="28" y="238" fill="#fff" font-family="Microsoft YaHei, sans-serif" font-size="26" font-weight="700">秋日料理</text>
+</svg>
